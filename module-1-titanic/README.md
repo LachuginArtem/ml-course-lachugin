@@ -1,7 +1,7 @@
 # 🚢 Module 1 — Titanic: EDA + бинарная классификация
 
-**Автор:** Медведев Кирилл Андриянович, АСОиУб-23-2  
-**Дата:** 2026-09-20
+**Автор:** Лачугин Артем Викторович, АСОиУб-23-1  
+**Дата:** 2026-09-28
 
 ## 📊 Результаты
 
@@ -19,5 +19,5 @@ import joblib
 import requests
 from io import BytesIO
 
-BASE_URL = "https://raw.githubusercontent.com/Medvedev-Kirill/ml-course-medvedev/main/module-1-titanic"
+BASE_URL = "https://raw.githubusercontent.com/LachuginArtem/ml-course-lachugin/main/module-1-titanic"
 model = joblib.load(BytesIO(requests.get(f"{BASE_URL}/models/lr_model.pkl").content))
